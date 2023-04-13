@@ -1,0 +1,73 @@
+.card {
+    margin-top: 58px;
+    margin-bottom: 80px;
+    width: 302px;
+    height: 458.5px;
+  
+    background: #ffffff;
+    box-shadow: 0px 0px 11.83px 1.17px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+  }
+  .card_bottom {
+    padding: 18px;
+ 
+  }
+  .price{
+    margin-left: -27px;
+  }
+  .card_bottom   p {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+
+    color: #111111;
+    /* margin-left: -25px; */
+  }
+  .card_box {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    justify-content: space-between;
+  }
+  .cardImgIcons {
+    position: relative;
+
+  }
+  .cardImgIcons     span {
+    cursor: default;
+    background-color: blue;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #5a5ac9;
+    border-radius: 4px;
+    height: 22px;
+    width: 35.962501525878906px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #ffffff;
+    padding: 5px 5px 5px 5px;
+  }
+  ul{
+    list-style: none;
+  }
+  .error_border1{
+
+    border: 2px solid red;
+  }
+  .cardImgIcons span{
+    width: 100px;
+  }

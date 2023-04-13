@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/admin.css">
+</head>
+<body>
+
+
+
+
+    <div class="d-flex justify-content-between container align-items-center">
+        <h1>Admin Panel</h1>
+     <div class="btnadd">
+        <button class="btn btn-dark mt-1"   data-bs-toggle="modal" data-bs-target="#exampleModal">Add</button>
+     </div>
+    </div>
+
+ 
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">New Product</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+<form action="" id="form">
+
+
+
+  
+
+<div>
+  <input type="text" placeholder="Product Title" class="form-control mb-3" id="title_book">
+
+  <select  name="Category" class="form-control mb-3" id="Category">
+
+
+    <option value="newProducts">new products</option>
+    <option value="onsale">onsale</option>
+    <option value="upcomingProducts">upcoming products</option>
+
+
+    </select>
+    <input type="text" placeholder="Price: $" class="form-control mb-3" id="price">
+
+
+    <input type="file" multiple placeholder="Image Link" class="form-control mb-3" id="img_url" >
+      <img src="" id="imageSrc"   width="100px" height="100px" alt="">
+   
+</div>
+</div>
+
+
+
+
+<div class="modal-footer">
+  <button type="button"  class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+  <button type="button" class="btn btn-primary" id="saveProduct">Save</button>
+</div>
+</form>
+
+        
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="addProduct container-xl">
+
+
+
+    <div class="card_box">
+ 
+      </div>
+    </div>
+ 
+
+
+</div>
+
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+<script src="./js/admin.js"></script>
+</body>
+</html>

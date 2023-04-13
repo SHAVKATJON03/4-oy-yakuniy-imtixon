@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway";
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header_top {
+  background: #111111;
+  color: white;
+}
+
+ul {
+  margin-bottom: -5px;
+}
+
+nav ul li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.tel {
+  font-family: "Poppins";
+}
+
+.hero p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #111111;
+  margin-bottom: 14px;
+}
+.hero h2 {
+  width: 400px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 62px;
+  text-transform: capitalize;
+  color: #111111;
+}
+.hero button {
+  margin-top: 44px;
+  width: 138.84px;
+  height: 46px;
+  border: 1px solid #111111;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.left_card {
+  position: absolute;
+  top: 270px;
+  left: 120px;
+}
+
+#carouselExampleCaptions {
+  margin-top: 30px;
+}
+#carouselExampleCaptions .carousel-indicators button {
+  width: 20px;
+  height: 0.5px;
+  background: black;
+  border-radius: 100%;
+}
+
+.ferShop {
+  height: 173.5px;
+  margin-top: 200px;
+  margin-bottom: 80px;
+  background: #5a5ac9;
+}
+.ferShop ul .p1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.ferShop ul .p2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  width: 150px;
+}
+.ferShop .left-card {
+  margin-top: 25px;
+}
+
+.product_sarlavha h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #111111;
+}
+.product_sarlavha p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #565656;
+}
+.product_sarlavha .span {
+  width: 60px;
+  height: 2px;
+  background: #5a5ac9;
+  margin-left: 520px;
+  margin-top: 15px;
+}
+
+.product_Box p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #111111;
+}
+.product_Box.active {
+  color: blue;
+}
+
+.card {
+  margin-top: 58px;
+  margin-bottom: 80px;
+  width: 302px;
+  height: 458.5px;
+  background: #ffffff;
+  box-shadow: 0px 0px 11.83px 1.17px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+
+.card_bottom {
+  padding: 18px;
+}
+.card_bottom ul li p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  color: #111111;
+  margin-left: -30px;
+}
+
+.card_box {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  justify-content: space-between;
+}
+
+.cardImgIcons {
+  position: relative;
+}
+.cardImgIcons span {
+  cursor: default;
+  background-color: blue;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #5a5ac9;
+  border-radius: 4px;
+  height: 22px;
+  width: 100px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding: 5px 5px 5px 5px;
+}
+.macup{
+  width: 1320px;
+  margin-left: -115px;
+}
+.newCArdbox{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.fashion{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 21px;
+/* identical to box height, or 175% */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #5A5AC9;
+}
+.card_bottom span{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 172% */
+
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #5A5AC9;
+}
+.footerTeam{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 172% */
+
+display: flex;
+align-items: center;
+
+color: #565656;
+width: 400px;
+margin-top: 24px;
+margin-bottom: 28px;
+}
+footer{
+  padding-top: 80px;
+background: #EFEFEF;
+}
+.blueinfo{
+  width: 60px;
+height: 2px;
+background: #5A5AC9;
+margin-top: 18px;margin-bottom: 24px;
+}
+.Information{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #111111;
+
+}
+.footerul{
+  margin-left: -30px;
+}
+.Newsletter{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 172% */
+
+display: flex;
+align-items: center;
+
+color: #565656;
+width: 400px;
+}
+.sign{
+  position: absolute;
+height: 47px;
+left: 325px;
+top: 0px;
+
+background: #5A5AC9;
+border-radius: 0px 30px 30px 0px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 47px;
+/* or 336% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+width: 91px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.inputdiv{
+  position: relative;
+  top: 19px;
+
+}
+.section_one{
+  margin-bottom: 100px;
+}
+.input{
+  box-sizing: border-box;
+
+width: 415.99px;
+height: 47px;
+
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+padding: 11px;
+}
+
+#pages{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  margin-bottom: 25px;
+}
+#pages button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #10CD45;
+  color: white;
+}
+.page-btn{
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #10CD45;
+  color: white;
+}
+.page-btn.active{
+  background-color: red;
+}
+.product_Box button{
+  border: none;
+  background-color: transparent;
+}
+.cart{
+  background-color:#10CD45;
+  position: relative;
+  border-radius: 5px;
+}
+.cartAmount{
+  position: absolute;
+  top: -15px;
+  right: -10px;
+  background-color: red;
+  font-size: 18px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+
+.buttons{
+  width: 130px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+
+}
+.buttons span{
+  background-color: transparent;
+  font-size: 38px;
+  border: none;
+  cursor: pointer;
+}
+.buttons .quantity{
+  font-size: 24px;
+
+}
+/*# sourceMappingURL=main.css.map */
